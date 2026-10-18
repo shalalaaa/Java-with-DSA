@@ -6,7 +6,7 @@ public class Built_In {
         System.out.println(Math.sqrt(4));
         System.out.println(Math.cbrt(81));
         System.out.println(Math.floor(4.8));// this is use ot write the round down of a number 
-        System.out.println(Math.ceil(6.7));// thisis use to write round up of the no. 
+        System.out.println(Math.ceil(6.7));// thisis use to write round up of the number
         System.out.println(Math.min(4,4.01));
         System.out.println(Math.max(8.9,9));
         System.out.println(Math.pow(5,2));// this is the log Math.pow(base, exponent)
