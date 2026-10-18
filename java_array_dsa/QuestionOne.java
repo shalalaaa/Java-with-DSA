@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//taek array as input and then print all of them negative and in ascending order
+//take an array as input and then print all of them negative and in ascending order
 public class QuestionOne {
     public static void main(String[] args) {
 
