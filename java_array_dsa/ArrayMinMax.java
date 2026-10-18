@@ -14,7 +14,7 @@ public class ArrayMinMax {
         }
 
         // Maximum number in the array
-        int max = vinita[0];  //Integer.MIN_VALUE.  can take this instead too
+        int max = vinita[0]; // Integer.MIN_VALUE can be used instead
 
         for (int i = 1; i < vinita.length; i++) {
             if (vinita[i] > max) {
