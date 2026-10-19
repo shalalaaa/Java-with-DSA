@@ -2,10 +2,10 @@ public class User_defined {
     public static void Name(){
         System.out.println("Aditi");
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {  //Main fucntion would always run first.
     Nitu();
     System.out.println("Vinita");
-    Name();  // it doestnt matter the postion of where you've made the fuction the main fuction work would happen first 
+    Name();
     System.out.println("Tarun");    
     }
 
@@ -23,3 +23,10 @@ public class User_defined {
         System.out.println("Pankaj");
     }
 }  
+// OUTPUT:-
+//     Shiva
+//     Vipin
+//     Pankaj
+//     Vinita
+//     Aditi
+//     Tarun
