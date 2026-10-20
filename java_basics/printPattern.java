@@ -4,7 +4,7 @@ public class printPattern {
           System.out.println("**");
             System.out.println("***");
               System.out.println("****\n");
-              //in this we're printing pattern without loop.
+              //This is not an efficient way of pattern printing . We'll use loop for that.
             String name = "Aditi Singh";
             int age = 22;
             String city = "Delhi";
@@ -16,7 +16,7 @@ public class printPattern {
             System.out.println("City: " + city);
             System.out.println("Course: " + course);
             System.out.println("Weight: " + weight);
-
+             //We are trying to print the outcome with the help of print function.
     }
     
 }
