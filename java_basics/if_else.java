@@ -1,4 +1,4 @@
-// this is conditonal statement that is used for only two conditions at a time
+// this is conditonal statement that is used for only two conditions at a time.
 import java.util.*;
 public class if_else {
     public static void main(String[] args) {
