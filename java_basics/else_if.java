@@ -1,4 +1,4 @@
-import java.util.*;  //this is one of the conditional statement, that is use for more than two conditions
+import java.util.*;  //this is one of the conditional statement, that is use for more than two conditions.
 public class else_if {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
