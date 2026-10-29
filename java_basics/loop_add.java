@@ -6,7 +6,7 @@
 //         }
 //     }  
 // }
-import java.util.Scanner;
+import java.util.Scanner;//We're going to add numbers with the help of loop
 
 public class loop_add {
     public static void main(String[] args) {
