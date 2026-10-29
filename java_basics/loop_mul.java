@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//We're goiing to use loop to perfrom multiplication 
 public class loop_mul{
     public static void main(){
         Scanner sc = new Scanner(System.in);
