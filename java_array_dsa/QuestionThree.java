@@ -1,4 +1,6 @@
-import java.util.Scanner;
+import java.util.Scanner;//It follows two conditions:
+                         // - Even index (0, 2, 4, 6...): Adds 10 to the element.
+                         // - Odd index (1, 3, 5, 7...): Multiplies the element by 2.
 
 public class QuestionThree {
     public static void main(String[] args) {
