@@ -1,6 +1,6 @@
 import java.util.Arrays;   //THIS IS REALLY IMPORTANT
 
-public class ShallowCopyDeepCopy {
+public class DeepCopyShallowCopy {
     public static void main(String[] args) {
         int [] arr = {10,20,30,40};
         // int [] x = arr;    //x is shallow copy of arr.
