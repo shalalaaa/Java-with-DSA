@@ -9,7 +9,7 @@ public class DeepCopyShallowCopy {
 
         int[] y = Arrays.copyOf(arr, arr.length);
         y[0] = 100;
-        System.out.println(arr[0]);  // 10. (No change would happen in array )
+        System.out.println(arr[0]);  // 10. (No change would happen in array)
         System.out.println(y[0]);   //100 
     }
 }
