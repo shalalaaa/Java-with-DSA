@@ -6,11 +6,11 @@ public class QuestionFour {
         int max = Integer.MIN_VALUE;
         int second_max = Integer.MIN_VALUE;
 
-        //calculate max
+        //to calculate max
         for(int i=0; i<arr.length; i++){
             if(arr[i]>max){max=arr[i];} 
         }
-        //calculate second max
+        //to calculate second max
         for(int i=0; i<=arr.length; i++){
             if(arr[i]>max && arr[i]!=max){
                 second_max = arr[i];
