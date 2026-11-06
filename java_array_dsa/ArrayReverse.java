@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.Scanner;   //Two pointer technique
 
 public class ArrayReverse {
 
