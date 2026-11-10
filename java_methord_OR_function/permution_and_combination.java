@@ -27,7 +27,8 @@
 //         sc.close();
 //     }
 // }
-// This is the long way without fucntion 
+// This is the long way without fucntion and this is oe of the best way 
+
  import java.util.Scanner;
 
 public class permution_and_combination { 
