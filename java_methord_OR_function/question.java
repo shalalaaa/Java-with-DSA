@@ -22,3 +22,4 @@ public class question {
     }
     
 }
+//we have to use built in function to mak eour work easy 
