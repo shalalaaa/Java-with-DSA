@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class Array_List {
+public class Arrays_List {
     public static void main(String[] args) {
 
         ArrayList<Integer> arr = new ArrayList<>();
