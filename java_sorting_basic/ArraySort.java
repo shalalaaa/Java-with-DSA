@@ -16,7 +16,7 @@ public class ArraySort {
         print(arr);
 
         for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - 1; j++) {
+            for (int j = 0; j < n - 1; j++) {         
 
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
@@ -29,3 +29,7 @@ public class ArraySort {
         print(arr);
     }
 }
+
+//for (int j = 0; j < n - 1-i; j++)
+// [This is even better than the inner loop that we're using rightnow becacuse this excluse the last sorted element that is
+//  already the max element we've put at end after one pass ]
