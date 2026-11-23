@@ -1,10 +1,10 @@
 
-public class BubbleSort {
+public class BubbleSort {//This is oprtimised version of the above code adn this is not the best code this is better code .
     public static void main(String[] args) {
 
         int[] arr = {9, 4, 5, 3, 2, 6, 8, 7, 1};
         int n = arr.length;
-                                //METHORD 1:-
+                //METHORD 1:-(this is a better optimised code but its really big that doesn't mean it take a lot space )
         for (int i = 0; i < n - 1; i++) {
 
             boolean isSorted = true;
@@ -31,7 +31,7 @@ public class BubbleSort {
         }
     }
 }
-                                //METHOR 2:-
+            //METHOR 2:-(this use int variable that take nore space than bool variable in the above code)
                             
 // for(int i= 0; i<n-1; i++){
 //     int swap =0;
