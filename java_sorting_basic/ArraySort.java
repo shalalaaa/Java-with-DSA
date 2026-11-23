@@ -1,4 +1,4 @@
-
+//BUBBLE SORT :- This code is not efficient and this waste a lot time we can do better than this for sorting .
 public class ArraySort {
 
     public static void print(int[] arr) {
