@@ -1,44 +1,38 @@
 
 public class SelectionSort {
 
+    public static void print(int[] arr, int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+
     static void selectionSort(int[] arr) {
         int n = arr.length;
 
         for (int i = 0; i < n - 1; i++) {
 
-            // Assume current position has minimum element
-            int min_idx = i;
+            int min = Integer.MAX_VALUE;
+            int mindx = -1;
 
-            // Find the minimum element in unsorted portion
-            for (int j = i + 1; j < n; j++) {
-                if (arr[j] < arr[min_idx]) {
-                    min_idx = j;
+            for (int j = i; j < n; j++) {
+                if (arr[j] < min) {
+                    min = arr[j];
+                    mindx = j;
                 }
             }
 
-            // Swap minimum element with current element
+            // Swap
             int temp = arr[i];
-            arr[i] = arr[min_idx];
-            arr[min_idx] = temp;
+            arr[i] = arr[mindx];
+            arr[mindx] = temp;
         }
-    }
-
-    static void printArray(int[] arr) {
-        for (int val : arr) {
-            System.out.print(val + " ");
-        }
-        System.out.println();
     }
 
     public static void main(String[] args) {
-        int[] arr = {64, 25, 12, 22, 11};
-
-        System.out.print("Original array: ");
-        printArray(arr);
+        int[] arr = {2, 4, 5, 8, 1, 5, 9, 10, -2, -9};
 
         selectionSort(arr);
-
-        System.out.print("Sorted array: ");
-        printArray(arr);
+        print(arr, arr.length);
     }
 }
